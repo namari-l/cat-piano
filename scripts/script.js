@@ -136,7 +136,7 @@ document.addEventListener('keyup', function changeBack() {
   });
 
 let clickCat1= document.getElementById('cat1')
-  clickCat1.onmousedown ||clickCat1.ontouchstart = function change(){
+  clickCat1.onmousedown = function change(){
     if(event.button == 0){
       cat1.src = "images/cat1.2.png";
       document.getElementById("aButton").style.backgroundColor = "#ccc";
