@@ -135,7 +135,7 @@ document.addEventListener('keyup', function changeBack() {
   }
   });
 
-let clickCat1= document.getElementById('cat1')
+var clickCat1= document.getElementById('cat1')
   clickCat1.onmousedown = function change(){
     if(event.button == 0){
       cat1.src = "images/cat1.2.png";
@@ -149,7 +149,7 @@ let clickCat1= document.getElementById('cat1')
         document.getElementById("aButton").style.backgroundColor = "#fff";
       } }
 
-  let clickCat2= document.getElementById('cat2')
+  var clickCat2= document.getElementById('cat2')
     clickCat2.onmousedown = function change(){
       if(event.button == 0){
         cat2.src = "images/cat2.2.png";
@@ -164,7 +164,7 @@ let clickCat1= document.getElementById('cat1')
           document.getElementById("sButton").style.backgroundColor = "#fff";
         } }
 
-    let clickCat3= document.getElementById('cat3')
+    var clickCat3= document.getElementById('cat3')
       clickCat3.onmousedown = function change(){
         if(event.button == 0){
           cat3.src = "images/cat3.2.png";
@@ -179,7 +179,7 @@ let clickCat1= document.getElementById('cat1')
             document.getElementById("dButton").style.backgroundColor = "#fff";
           } }
 
-      let clickCat4= document.getElementById('cat4')
+      var clickCat4= document.getElementById('cat4')
         clickCat4.onmousedown = function change(){
           if(event.button == 0){
             cat4.src = "images/cat4.2.png";
@@ -194,7 +194,7 @@ let clickCat1= document.getElementById('cat1')
               document.getElementById("fButton").style.backgroundColor = "#fff";
             } }
 
-        let clickCat5= document.getElementById('cat5')
+        var clickCat5= document.getElementById('cat5')
           clickCat5.onmousedown = function change(){
             if(event.button == 0){
               cat5.src = "images/cat5.2.png";
@@ -209,7 +209,7 @@ let clickCat1= document.getElementById('cat1')
                 document.getElementById("gButton").style.backgroundColor = "#fff";
               } }
 
-          let clickCat6= document.getElementById('cat6')
+          var clickCat6= document.getElementById('cat6')
             clickCat6.onmousedown = function change(){
               if(event.button == 0){
                 cat6.src = "images/cat6.2.png";
@@ -223,7 +223,7 @@ let clickCat1= document.getElementById('cat1')
                   upcat6.src = "images/catblink6.gif";
                   document.getElementById("hButton").style.backgroundColor = "#fff";
                 } }
-            let clickCat7= document.getElementById('cat7')
+            var clickCat7= document.getElementById('cat7')
               clickCat7.onmousedown = function change(){
                 if(event.button == 0){
                   cat7.src = "images/cat7.2.png";
@@ -237,7 +237,7 @@ let clickCat1= document.getElementById('cat1')
                     upcat7.src = "images/catblink7.gif";
                     document.getElementById("zButton").style.backgroundColor = "#fff";
                   } }
-              let clickCat8= document.getElementById('cat8')
+              var clickCat8= document.getElementById('cat8')
                 clickCat8.onmousedown = function change(){
                   if(event.button == 0){
                     cat8.src = "images/cat8.2.png";
@@ -251,7 +251,7 @@ let clickCat1= document.getElementById('cat1')
                       upcat8.src = "images/catblink8.gif";
                       document.getElementById("xButton").style.backgroundColor = "#fff";
                     } }
-                let clickCat9= document.getElementById('cat9')
+                var clickCat9= document.getElementById('cat9')
                   clickCat9.onmousedown = function change(){
                     if(event.button == 0){
                       cat9.src = "images/cat9.2.png";
@@ -265,7 +265,7 @@ let clickCat1= document.getElementById('cat1')
                         upcat9.src = "images/catblink9.gif";
                         document.getElementById("cButton").style.backgroundColor = "#fff";
                       } }
-                  let clickCat10= document.getElementById('cat10')
+                  var clickCat10= document.getElementById('cat10')
                     clickCat10.onmousedown = function change(){
                       if(event.button == 0){
                         cat10.src = "images/cat10.2.png";
@@ -279,7 +279,7 @@ let clickCat1= document.getElementById('cat1')
                           upcat10.src = "images/catblink10.gif";
                           document.getElementById("vButton").style.backgroundColor = "#fff";
                         } }
-                    let clickCat11= document.getElementById('cat11')
+                    var clickCat11= document.getElementById('cat11')
                       clickCat11.onmousedown = function change(){
                         if(event.button == 0){
                           cat11.src = "images/cat11.2.png";
@@ -293,5 +293,3 @@ let clickCat1= document.getElementById('cat1')
                         upcat11.src = "images/catblink11.gif";
                         document.getElementById("bButton").style.backgroundColor = "#fff";
                       } }
-
-            
