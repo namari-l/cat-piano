@@ -297,12 +297,10 @@ let clickCat1= document.getElementById('cat1')
                       let touchCat1= document.getElementById('cat1')
                         touchCat1.ontouchstart = function change(){
                             cat1.src = "images/cat1.2.png";
-                            document.getElementById("aButton").style.backgroundColor = "#ccc";
                             var audio1 = new Audio('audio/note1.mp3');
                         audio1.play();
-                      }}
+                      }
                       touchCat1.ontouchend = function changeBack(){
                           var upcat1 = document.getElementById('cat1');
                           upcat11.src = "images/catblink1.gif";
-                          document.getElementById("aButton").style.backgroundColor = "#fff";
-                        } }
+                        }
