@@ -293,3 +293,94 @@ var clickCat1= document.getElementById('cat1')
                         upcat11.src = "images/catblink11.gif";
                         document.getElementById("bButton").style.backgroundColor = "#fff";
                       } }
+
+                      var touchCat1= document.getElementById('cat1')
+                        touchCat1.ontouchstart = function change(){
+                            cat1.src = "images/cat1.2.png";
+                            }
+                          touchCat1.ontouchend = function changeBack(){
+                              var upcat1 = document.getElementById('cat1');
+                              upcat1.src = "images/catblink1.gif";
+                            }
+                            var touchCat2= document.getElementById('cat2')
+                              touchCat2.ontouchstart = function change(){
+                                  cat2.src = "images/cat2.2.png";
+                              }
+                                touchCat2.ontouchend = function changeBack(){
+                                    var upcat2 = document.getElementById('cat2');
+                                    upcat2.src = "images/catblink2.gif";
+                                  }
+                                  var touchCat3= document.getElementById('cat3')
+                                    touchCat3.ontouchstart = function change(){
+                                        cat3.src = "images/cat3.2.png";
+                                        }
+                                      touchCat3.ontouchend = function changeBack(){
+                                          var upcat3 = document.getElementById('cat3');
+                                          upcat3.src = "images/catblink3.gif";
+                                        }
+                                        var touchCat4= document.getElementById('cat4')
+                                          touchCat4.ontouchstart = function change(){
+                                              cat4.src = "images/cat4.2.png";
+                                              }
+                                            touchCat4.ontouchend = function changeBack(){
+                                                var upcat4 = document.getElementById('cat4');
+                                                upcat4.src = "images/catblink4.gif";
+                                              }
+
+var touchCat5= document.getElementById('cat5')
+touchCat5.ontouchstart = function change(){
+cat5.src = "images/cat5.2.png";
+  }
+  touchCat5.ontouchend = function changeBack(){
+var upcat5 = document.getElementById('cat5');
+  upcat5.src = "images/catblink5.gif";
+  }
+
+  var touchCat6= document.getElementById('cat6')
+  touchCat6.ontouchstart = function change(){
+  cat6.src = "images/cat6.2.png";
+    }
+    touchCat6.ontouchend = function changeBack(){
+  var upcat6 = document.getElementById('cat6');
+    upcat6.src = "images/catblink6.gif";
+    }
+    var touchCat7= document.getElementById('cat7')
+    touchCat7.ontouchstart = function change(){
+    cat7.src = "images/cat7.2.png";
+      }
+      touchCat7.ontouchend = function changeBack(){
+    var upcat7 = document.getElementById('cat7');
+      upcat7.src = "images/catblink7.gif";
+      }
+      var touchCat8= document.getElementById('cat8')
+      touchCat8.ontouchstart = function change(){
+      cat8.src = "images/cat8.2.png";
+        }
+        touchCat8.ontouchend = function changeBack(){
+      var upcat8 = document.getElementById('cat8');
+        upcat8.src = "images/catblink8.gif";
+        }
+        var touchCat9= document.getElementById('cat9')
+        touchCat9.ontouchstart = function change(){
+        cat9.src = "images/cat9.2.png";
+          }
+          touchCat9.ontouchend = function changeBack(){
+        var upcat9 = document.getElementById('cat9');
+          upcat9.src = "images/catblink9.gif";
+          }
+          var touchCat10= document.getElementById('cat10')
+          touchCat10.ontouchstart = function change(){
+          cat10.src = "images/cat10.2.png";
+            }
+            touchCat10.ontouchend = function changeBack(){
+          var upcat10 = document.getElementById('cat10');
+            upcat10.src = "images/catblink10.gif";
+            }
+            var touchCat11= document.getElementById('cat11')
+            touchCat11.ontouchstart = function change(){
+            cat11.src = "images/cat11.2.png";
+              }
+              touchCat11.ontouchend = function changeBack(){
+            var upcat11 = document.getElementById('cat11');
+              upcat11.src = "images/catblink11.gif";
+              }
