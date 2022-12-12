@@ -109,8 +109,8 @@ h1{
   grid-template-rows: auto;
   justify-items: center;
   grid-template-areas:
-      "cat7 cat8 cat9"
-      "cat10 cat11"
+      "greyStripe orangeSpot brownBlack"
+      "blackWhite brownCat"
       }
     .sqButton{
       display: none;
