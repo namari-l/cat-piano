@@ -29,6 +29,7 @@ img{
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 0.25rem;
+  cursor: pointer;
 }
 
 body{
@@ -125,7 +126,7 @@ button {
   @media (max-width: 450px){
 h1{
  display:block;
-  font-size: 4rem;
+  font-size: 3rem;
   margin:auto;
   text-align: center;
   justify-items: center;
