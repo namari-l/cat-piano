@@ -18,6 +18,7 @@
   }
 
 p{
+  font-family: 'Rubik', sans-serif;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -31,14 +32,31 @@ img{
 }
 
 body{
-background-color: #ACF0FF
+ background-image: url('../images/blueStripe-01.png');
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
 }
 
 h1{
-  color: #F060A0;
+  font-family: 'Fredoka One', cursive;
+  color: #005BD1;
   text-align: center;
   font-size: 6rem;
   margin: 0;
+  margin-top: 0.5rem;
+}
+
+#credit{
+  background-color: #005BD1;
+  margin:0;
+  padding: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+#ogPiano{
+  font-size: 0.25rem;
 }
 
 
@@ -62,6 +80,32 @@ h1{
   border-radius: 1rem;
   box-shadow: 2px 2px #000;
 
+}
+#songNotes1{
+  display: none;
+}
+#songNotes2{
+  display: none;
+}
+#songNotes3{
+  display: none;
+}
+#songButt{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+button {
+  background-color: #005BD1;
+  border: none;
+  color: #fff;
+  font-family:'Rubik', sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2rem;
 }
 
 @media (max-width: 800px){

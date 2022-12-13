@@ -384,3 +384,30 @@ var upcat5 = document.getElementById('cat5');
             var upcat11 = document.getElementById('cat11');
               upcat11.src = "images/catblink11.gif";
               }
+
+              function changeText() {
+                var song1 = document.getElementById("songNotes1");
+                if (song1.style.display === "none") {
+    song1.style.display = "block";
+  } else {
+    song1.style.display = "none";
+  }
+}
+
+function changeText2() {
+  var song2 = document.getElementById("songNotes2");
+  if (song2.style.display === "none") {
+song2.style.display = "block";
+} else {
+song2.style.display = "none";
+}
+}
+
+function changeText3() {
+  var song3 = document.getElementById("songNotes3");
+  if (song3.style.display === "none") {
+song3.style.display = "block";
+} else {
+song3.style.display = "none";
+}
+}
