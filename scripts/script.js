@@ -1,3 +1,4 @@
+//keydown functions//
 document.addEventListener('keydown', function change() {
   if (event.code == 'KeyA') {
     var cat1 = document.getElementById('cat1');
@@ -77,6 +78,8 @@ audio10.play();
 audio11.play();
   }
 });
+
+//keyup functions//
 document.addEventListener('keyup', function changeBack() {
   if (event.code == 'KeyA') {
     var upcat1 = document.getElementById('cat1');
@@ -134,7 +137,7 @@ document.addEventListener('keyup', function changeBack() {
     document.getElementById("bButton").style.backgroundColor = "#fff";
   }
   });
-
+//click functions. mousedown and mouseup//
 var clickCat1= document.getElementById('cat1')
   clickCat1.onmousedown = function change(){
     if(event.button == 0){
@@ -293,7 +296,7 @@ var clickCat1= document.getElementById('cat1')
                         upcat11.src = "images/catblink11.gif";
                         document.getElementById("bButton").style.backgroundColor = "#fff";
                       } }
-
+//touch functions. touchstart and touchend//
                       var touchCat1= document.getElementById('cat1')
                         touchCat1.ontouchstart = function change(){
                             cat1.src = "images/cat1.2.png";
@@ -385,6 +388,7 @@ var upcat5 = document.getElementById('cat5');
               upcat11.src = "images/catblink11.gif";
               }
 
+//buttons//
               function changeText() {
                 var song1 = document.getElementById("songNotes1");
                 if (song1.style.display === "none") {
