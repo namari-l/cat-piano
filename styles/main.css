@@ -16,7 +16,9 @@
     justify-content: center;
     margin-bottom: 1rem;
   }
-
+#mobile{
+  display:none
+}
 p{
   font-family: 'Rubik', sans-serif;
   text-align: center;
@@ -164,4 +166,10 @@ h1{
   button{
     display:none;
   }
+#mobile{
+  display:block
+}
+#desktop{
+  display:none
+}
 }
